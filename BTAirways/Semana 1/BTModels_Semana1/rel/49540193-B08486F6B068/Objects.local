@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="D402BE8C-8CA8-4F63-97E3-8FA32E03FACD" name="EMPLEADOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="49540193-008F-0C32-250D-B08486F6B068" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="10D43B17-F85B-21C6-6243-948510B5AD61" name="PASAJEROS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="49540193-008F-0C32-250D-B08486F6B068" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="ADC3393B-AD14-F3C7-5B2E-5CE3D61753BE" name="RESERVA_VUELOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="49540193-008F-0C32-250D-B08486F6B068" propertySourceId="" propertyTargetId=""/>
-   <object objectType="Table" objectID="D1E3A31E-5B8D-4010-1684-94EC1F0CB714" name="VUELOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="49540193-008F-0C32-250D-B08486F6B068" propertySourceId="" propertyTargetId=""/>
-</oracle.dbtools.crest.model.design.relational.RelationalDesign>
