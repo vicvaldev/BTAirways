@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C0536BF-232A-AD72-0A0A-4DF088F0C2CF" name="PASAJEROS">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>10D43B17-F85B-21C6-6243-948510B5AD61</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PASAJERO ID" id="92AFBA72-B1DE-6F5E-6D2D-8DDABB275E76">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>D51AFE83-764D-26DB-B2A1-554CB07A76B4</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDENTIFICADOR NACIONAL" id="584130FE-E168-7F9F-D08D-C19FD7A1B627">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<comment><![CDATA[Corresponde a la cédula de identidad o pasaporte]]></comment>
+<commentInRDBMS><![CDATA[Corresponde a la cédula de identidad o pasaporte]]></commentInRDBMS>
+<generatorID>69C74922-4197-0AAB-A011-3FDE3E41BED7</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="DC5F8F99-D514-7703-E3AB-8C10DA8C4C71">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>81DFA398-ACA5-2D75-F69D-8FFDB01CC460</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO PATERNO" id="36A85368-4177-E041-43F7-E7334FC8D53F">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>2F8D6F29-C767-5116-F0AC-CEEDDA3E7D37</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO MATERNO" id="16CD0945-7EFF-FEC1-4A24-8512CC804DF0">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>B6EF023A-D3C4-CDE9-2F22-3D1446AB5DB7</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NACIONALIDAD" id="2A28DC7C-61CB-8BB4-3F35-A9FCA066EE30">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>3A845D69-454B-7D2C-4994-7C03274C3200</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CORREO" id="7A212179-39A0-50BF-BE36-75A29754D7B8">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>617203F0-B248-44D8-FF3C-CFBF6FE73088</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO MOVIL" id="97430708-C519-B115-5CBF-54D301C2E7FC">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>75818510-B0D7-63AF-52EA-66ACBBA9F511</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC018423-2A45-1EA5-3046-1E3EFE39628E" name="PASAJEROS PK">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:01:40 UTC</createdTime>
+<generatorID>E8BC218B-B148-075B-4117-50AF30FCD3E9</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>92AFBA72-B1DE-6F5E-6D2D-8DDABB275E76</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C512E071-B10E-9B4E-EE6C-39EA75705164" name="PASAJEROS PK">
+<createdBy>victor</createdBy>
+<createdTime>2026-08-13 02:06:20 UTC</createdTime>
+<generatorID>9B61EDF7-28FE-169F-099A-B72C1E3F1A0B</generatorID>
+<ownerDesignName>BTModels_Semana1</ownerDesignName>
+<engineerTo>
+<item key="49540193-008F-0C32-250D-B08486F6B068" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>584130FE-E168-7F9F-D08D-C19FD7A1B627</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

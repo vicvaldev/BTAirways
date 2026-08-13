@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="6CEABBFE-4C91-87A9-2146-AB281DD7DC91" name="EMPLEADOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ACDE6004-781D-9AD0-AFA2-5578511DF9E9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0C0536BF-232A-AD72-0A0A-4DF088F0C2CF" name="PASAJEROS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ACDE6004-781D-9AD0-AFA2-5578511DF9E9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="649CAF25-5ADA-292F-D3F8-5B39B3D35DA1" name="RESERVA VUELOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ACDE6004-781D-9AD0-AFA2-5578511DF9E9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="DAC3140A-26FD-B86F-CF2F-ECDDE9F2F77C" name="VUELOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ACDE6004-781D-9AD0-AFA2-5578511DF9E9" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
